@@ -1,13 +1,14 @@
 #include <stdio.h>
-
 int main()
 {
-    for( int n=1; n<2000; n++){
-        if( n%8==6 && n%9==7 && n%15==13 ){
-            printf("\n�{쫇n: %d\n" , n );
-            printf("\nΞ8간푡%d\n", n%8 );
-            printf("Ξ9간푡%d\n", n%9 );
-            printf("Ξ15간푡%d\n", n%15 );
-        }
+    int N=7;
+    for( int i=0; i<N; i++){
+        printf("쩧�{ i:%d \n", i);
+    }
+
+    for( int i=1; i<N; i++){
+        printf("굘짾ⓖ i:%d \n", i);
     }
 }
+
+

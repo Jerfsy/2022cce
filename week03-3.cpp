@@ -2,11 +2,13 @@
 
 int main()
 {
-    printf("½Ð¿é¤J¼Æ¦rn:");
+	int n;
+	scanf("%d", &n);
 
-    int n;
-    scanf("%d", &n );
-    if( n>10 ) printf("n>10");
-    if( n<10 ) printf("n<10");
-    if( n==10 ) printf("n==10");
+
+	if(n%400==0) printf("Yes");
+	else if(n%100==0) printf("No");
+	else if(n%4==0) printf("Yes");
+	else printf("No");
+
 }
